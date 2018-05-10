@@ -1,0 +1,173 @@
+(.venv) administrator-HP-Z440-Workstation :: ~/kaggle » cd state-farm-distracted-driver-detection/src                                                                                    2 ↵
+(.venv) administrator-HP-Z440-Workstation :: kaggle/state-farm-distracted-driver-detection/src ‹master*› » python train.py --model xception --generator custom --width 224 --optimizer adam --lr 1e-5 --batch 32 --epochs 50
+/home/administrator/kaggle/.venv/lib/python3.5/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+2018-05-05 11:41:04.977818: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.4/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
+83689472/83683744 [==============================] - 1650s 20us/step
+Epoch 1/50
+572/572 [==============================] - 8170s 14s/step - loss: 2.2633 - acc: 0.2814 - val_loss: 2.3488 - val_acc: 0.2040
+
+Epoch 00001: saving model to /home/administrator/kaggle/drive/models/xception-01-acc-0.2040-loss-2.3488.hdf5
+Epoch 2/50
+572/572 [==============================] - 11544s 20s/step - loss: 1.2321 - acc: 0.7272 - val_loss: 1.9268 - val_acc: 0.4471
+
+Epoch 00002: saving model to /home/administrator/kaggle/drive/models/xception-02-acc-0.4471-loss-1.9268.hdf5
+Epoch 3/50
+572/572 [==============================] - 11887s 21s/step - loss: 0.6683 - acc: 0.8774 - val_loss: 1.7427 - val_acc: 0.4718
+
+Epoch 00003: saving model to /home/administrator/kaggle/drive/models/xception-03-acc-0.4718-loss-1.7427.hdf5
+Epoch 4/50
+572/572 [==============================] - 11698s 20s/step - loss: 0.4680 - acc: 0.9305 - val_loss: 1.6321 - val_acc: 0.5135
+
+Epoch 00004: saving model to /home/administrator/kaggle/drive/models/xception-04-acc-0.5135-loss-1.6321.hdf5
+Epoch 5/50
+572/572 [==============================] - 11828s 21s/step - loss: 0.3791 - acc: 0.9507 - val_loss: 1.6289 - val_acc: 0.5129
+
+Epoch 00005: saving model to /home/administrator/kaggle/drive/models/xception-05-acc-0.5129-loss-1.6289.hdf5
+Epoch 6/50
+572/572 [==============================] - 11695s 20s/step - loss: 0.3287 - acc: 0.9645 - val_loss: 1.5866 - val_acc: 0.5373
+
+Epoch 00006: saving model to /home/administrator/kaggle/drive/models/xception-06-acc-0.5373-loss-1.5866.hdf5
+Epoch 7/50
+572/572 [==============================] - 11728s 21s/step - loss: 0.2951 - acc: 0.9692 - val_loss: 1.5984 - val_acc: 0.5364
+
+Epoch 00007: saving model to /home/administrator/kaggle/drive/models/xception-07-acc-0.5364-loss-1.5984.hdf5
+Epoch 8/50
+572/572 [==============================] - 11754s 21s/step - loss: 0.2667 - acc: 0.9772 - val_loss: 1.5921 - val_acc: 0.5466
+
+Epoch 00008: saving model to /home/administrator/kaggle/drive/models/xception-08-acc-0.5466-loss-1.5921.hdf5
+Epoch 9/50
+572/572 [==============================] - 11544s 20s/step - loss: 0.2463 - acc: 0.9805 - val_loss: 1.5962 - val_acc: 0.5502
+
+Epoch 00009: saving model to /home/administrator/kaggle/drive/models/xception-09-acc-0.5502-loss-1.5962.hdf5
+Epoch 10/50
+572/572 [==============================] - 11564s 20s/step - loss: 0.2249 - acc: 0.9837 - val_loss: 1.6107 - val_acc: 0.5496
+
+Epoch 00010: saving model to /home/administrator/kaggle/drive/models/xception-10-acc-0.5496-loss-1.6107.hdf5
+Epoch 11/50
+572/572 [==============================] - 11585s 20s/step - loss: 0.2090 - acc: 0.9870 - val_loss: 1.5896 - val_acc: 0.5556
+
+Epoch 00011: saving model to /home/administrator/kaggle/drive/models/xception-11-acc-0.5556-loss-1.5896.hdf5
+Epoch 12/50
+572/572 [==============================] - 11516s 20s/step - loss: 0.1919 - acc: 0.9893 - val_loss: 1.5686 - val_acc: 0.5529
+
+Epoch 00012: saving model to /home/administrator/kaggle/drive/models/xception-12-acc-0.5529-loss-1.5686.hdf5
+Epoch 13/50
+572/572 [==============================] - 11332s 20s/step - loss: 0.1773 - acc: 0.9903 - val_loss: 1.5553 - val_acc: 0.5529
+
+Epoch 00013: saving model to /home/administrator/kaggle/drive/models/xception-13-acc-0.5529-loss-1.5553.hdf5
+Epoch 14/50
+572/572 [==============================] - 11595s 20s/step - loss: 0.1646 - acc: 0.9916 - val_loss: 1.5583 - val_acc: 0.5655
+
+Epoch 00014: saving model to /home/administrator/kaggle/drive/models/xception-14-acc-0.5655-loss-1.5583.hdf5
+Epoch 15/50
+572/572 [==============================] - 11452s 20s/step - loss: 0.1515 - acc: 0.9930 - val_loss: 1.5545 - val_acc: 0.5547
+
+Epoch 00015: saving model to /home/administrator/kaggle/drive/models/xception-15-acc-0.5547-loss-1.5545.hdf5
+Epoch 16/50
+572/572 [==============================] - 11531s 20s/step - loss: 0.1405 - acc: 0.9934 - val_loss: 1.5384 - val_acc: 0.5685
+
+Epoch 00016: saving model to /home/administrator/kaggle/drive/models/xception-16-acc-0.5685-loss-1.5384.hdf5
+Epoch 17/50
+572/572 [==============================] - 11560s 20s/step - loss: 0.1310 - acc: 0.9950 - val_loss: 1.5270 - val_acc: 0.5571
+
+Epoch 00017: saving model to /home/administrator/kaggle/drive/models/xception-17-acc-0.5571-loss-1.5270.hdf5
+Epoch 18/50
+572/572 [==============================] - 11522s 20s/step - loss: 0.1208 - acc: 0.9949 - val_loss: 1.4464 - val_acc: 0.5856
+
+Epoch 00018: saving model to /home/administrator/kaggle/drive/models/xception-18-acc-0.5856-loss-1.4464.hdf5
+Epoch 19/50
+572/572 [==============================] - 11515s 20s/step - loss: 0.1139 - acc: 0.9948 - val_loss: 1.4776 - val_acc: 0.5781
+
+Epoch 00019: saving model to /home/administrator/kaggle/drive/models/xception-19-acc-0.5781-loss-1.4776.hdf5
+Epoch 20/50
+572/572 [==============================] - 11485s 20s/step - loss: 0.1058 - acc: 0.9946 - val_loss: 1.4664 - val_acc: 0.5580
+
+Epoch 00020: saving model to /home/administrator/kaggle/drive/models/xception-20-acc-0.5580-loss-1.4664.hdf5
+Epoch 21/50
+572/572 [==============================] - 11588s 20s/step - loss: 0.0959 - acc: 0.9964 - val_loss: 1.4071 - val_acc: 0.5799
+
+Epoch 00021: saving model to /home/administrator/kaggle/drive/models/xception-21-acc-0.5799-loss-1.4071.hdf5
+Epoch 22/50
+572/572 [==============================] - 11454s 20s/step - loss: 0.0896 - acc: 0.9968 - val_loss: 1.3727 - val_acc: 0.5910
+
+Epoch 00022: saving model to /home/administrator/kaggle/drive/models/xception-22-acc-0.5910-loss-1.3727.hdf5
+Epoch 23/50
+572/572 [==============================] - 11515s 20s/step - loss: 0.0836 - acc: 0.9972 - val_loss: 1.3627 - val_acc: 0.6010
+
+Epoch 00023: saving model to /home/administrator/kaggle/drive/models/xception-23-acc-0.6010-loss-1.3627.hdf5
+Epoch 24/50
+572/572 [==============================] - 11541s 20s/step - loss: 0.0782 - acc: 0.9974 - val_loss: 1.4129 - val_acc: 0.5856
+
+Epoch 00024: saving model to /home/administrator/kaggle/drive/models/xception-24-acc-0.5856-loss-1.4129.hdf5
+Epoch 25/50
+572/572 [==============================] - 11452s 20s/step - loss: 0.0750 - acc: 0.9972 - val_loss: 1.2897 - val_acc: 0.6235
+
+Epoch 00025: saving model to /home/administrator/kaggle/drive/models/xception-25-acc-0.6235-loss-1.2897.hdf5
+Epoch 26/50
+572/572 [==============================] - 11397s 20s/step - loss: 0.0696 - acc: 0.9976 - val_loss: 1.2837 - val_acc: 0.6247
+
+Epoch 00026: saving model to /home/administrator/kaggle/drive/models/xception-26-acc-0.6247-loss-1.2837.hdf5
+Epoch 27/50
+572/572 [==============================] - 11457s 20s/step - loss: 0.0656 - acc: 0.9976 - val_loss: 1.2807 - val_acc: 0.6172
+
+Epoch 00027: saving model to /home/administrator/kaggle/drive/models/xception-27-acc-0.6172-loss-1.2807.hdf5
+Epoch 28/50
+572/572 [==============================] - 11292s 20s/step - loss: 0.0626 - acc: 0.9980 - val_loss: 1.2560 - val_acc: 0.6286
+
+Epoch 00028: saving model to /home/administrator/kaggle/drive/models/xception-28-acc-0.6286-loss-1.2560.hdf5
+Epoch 29/50
+572/572 [==============================] - 11408s 20s/step - loss: 0.0593 - acc: 0.9980 - val_loss: 1.2515 - val_acc: 0.6280
+
+Epoch 00029: saving model to /home/administrator/kaggle/drive/models/xception-29-acc-0.6280-loss-1.2515.hdf5
+Epoch 30/50
+572/572 [==============================] - 12183s 21s/step - loss: 0.0553 - acc: 0.9984 - val_loss: 1.2722 - val_acc: 0.6169
+
+Epoch 00030: saving model to /home/administrator/kaggle/drive/models/xception-30-acc-0.6169-loss-1.2722.hdf5
+Epoch 31/50
+572/572 [==============================] - 12016s 21s/step - loss: 0.0534 - acc: 0.9984 - val_loss: 1.2725 - val_acc: 0.6208
+
+Epoch 00031: saving model to /home/administrator/kaggle/drive/models/xception-31-acc-0.6208-loss-1.2725.hdf5
+Epoch 32/50
+572/572 [==============================] - 11890s 21s/step - loss: 0.0501 - acc: 0.9985 - val_loss: 1.3303 - val_acc: 0.5968
+
+Epoch 00032: saving model to /home/administrator/kaggle/drive/models/xception-32-acc-0.5968-loss-1.3303.hdf5
+Epoch 33/50
+572/572 [==============================] - 11728s 21s/step - loss: 0.0484 - acc: 0.9985 - val_loss: 1.2571 - val_acc: 0.6202
+
+Epoch 00033: saving model to /home/administrator/kaggle/drive/models/xception-33-acc-0.6202-loss-1.2571.hdf5
+Epoch 34/50
+572/572 [==============================] - 12014s 21s/step - loss: 0.0470 - acc: 0.9985 - val_loss: 1.2845 - val_acc: 0.6157
+
+Epoch 00034: saving model to /home/administrator/kaggle/drive/models/xception-34-acc-0.6157-loss-1.2845.hdf5
+Epoch 35/50
+572/572 [==============================] - 11480s 20s/step - loss: 0.0452 - acc: 0.9981 - val_loss: 1.2148 - val_acc: 0.6400
+
+Epoch 00035: saving model to /home/administrator/kaggle/drive/models/xception-35-acc-0.6400-loss-1.2148.hdf5
+Epoch 36/50
+572/572 [==============================] - 11535s 20s/step - loss: 0.0442 - acc: 0.9985 - val_loss: 1.1644 - val_acc: 0.6581
+
+Epoch 00036: saving model to /home/administrator/kaggle/drive/models/xception-36-acc-0.6581-loss-1.1644.hdf5
+Epoch 37/50
+572/572 [==============================] - 9260s 16s/step - loss: 0.0422 - acc: 0.9986 - val_loss: 1.2163 - val_acc: 0.6409
+
+Epoch 00037: saving model to /home/administrator/kaggle/drive/models/xception-37-acc-0.6409-loss-1.2163.hdf5
+Epoch 38/50
+572/572 [==============================] - 9038s 16s/step - loss: 0.0417 - acc: 0.9988 - val_loss: 1.1117 - val_acc: 0.6806
+
+Epoch 00038: saving model to /home/administrator/kaggle/drive/models/xception-38-acc-0.6806-loss-1.1117.hdf5
+Epoch 39/50
+572/572 [==============================] - 9012s 16s/step - loss: 0.0393 - acc: 0.9990 - val_loss: 1.2040 - val_acc: 0.6442
+
+Epoch 00039: saving model to /home/administrator/kaggle/drive/models/xception-39-acc-0.6442-loss-1.2040.hdf5
+Epoch 40/50
+572/572 [==============================] - 9201s 16s/step - loss: 0.0387 - acc: 0.9986 - val_loss: 1.1861 - val_acc: 0.6430
+
+Epoch 00040: saving model to /home/administrator/kaggle/drive/models/xception-40-acc-0.6430-loss-1.1861.hdf5
+Epoch 41/50
+572/572 [==============================] - 9798s 17s/step - loss: 0.0373 - acc: 0.9992 - val_loss: 1.1199 - val_acc: 0.6731
+
+Epoch 00041: saving model to /home/administrator/kaggle/drive/models/xception-41-acc-0.6731-loss-1.1199.hdf5
+

@@ -1,0 +1,200 @@
+(.venv) administrator-HP-Z440-Workstation :: kaggle/state-farm-distracted-driver-detection/src ‹master*› » python train.py --model inception_v3 --generator custom --width 224 --optimizer adam --lr 1e-5 --batch 32 --epochs 50 
+/home/administrator/kaggle/.venv/lib/python3.5/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+2018-05-05 11:36:36.518510: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.5/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+87916544/87910968 [==============================] - 9s 0us/step
+/home/administrator/kaggle/state-farm-distracted-driver-detection/src/models/inception_v3.py:27: UserWarning: Update your `Model` call to the Keras 2 API: `Model(inputs=Tensor("in..., outputs=Tensor("de...)`
+  my_model = Model(input=inception_v3_model.input, output=x)
+Epoch 1/50
+572/572 [==============================] - 5207s 9s/step - loss: 2.1700 - acc: 0.3123 - val_loss: 2.1999 - val_acc: 0.2803
+
+Epoch 00001: saving model to /home/administrator/kaggle/drive/models/inception_v3-01-acc-0.2803-loss-2.1999.hdf5
+Epoch 2/50
+572/572 [==============================] - 7918s 14s/step - loss: 1.0973 - acc: 0.7262 - val_loss: 1.9986 - val_acc: 0.3477
+
+Epoch 00002: saving model to /home/administrator/kaggle/drive/models/inception_v3-02-acc-0.3477-loss-1.9986.hdf5
+Epoch 3/50
+572/572 [==============================] - 8445s 15s/step - loss: 0.6419 - acc: 0.8681 - val_loss: 1.9642 - val_acc: 0.3690
+
+Epoch 00003: saving model to /home/administrator/kaggle/drive/models/inception_v3-03-acc-0.3690-loss-1.9642.hdf5
+Epoch 4/50
+572/572 [==============================] - 8545s 15s/step - loss: 0.4680 - acc: 0.9215 - val_loss: 1.9775 - val_acc: 0.3804
+
+Epoch 00004: saving model to /home/administrator/kaggle/drive/models/inception_v3-04-acc-0.3804-loss-1.9775.hdf5
+Epoch 5/50
+572/572 [==============================] - 8463s 15s/step - loss: 0.3865 - acc: 0.9423 - val_loss: 1.9920 - val_acc: 0.3798
+
+Epoch 00005: saving model to /home/administrator/kaggle/drive/models/inception_v3-05-acc-0.3798-loss-1.9920.hdf5
+Epoch 6/50
+572/572 [==============================] - 8453s 15s/step - loss: 0.3333 - acc: 0.9596 - val_loss: 2.0274 - val_acc: 0.3873
+
+Epoch 00006: saving model to /home/administrator/kaggle/drive/models/inception_v3-06-acc-0.3873-loss-2.0274.hdf5
+Epoch 7/50
+572/572 [==============================] - 8480s 15s/step - loss: 0.2968 - acc: 0.9704 - val_loss: 2.0746 - val_acc: 0.3864
+
+Epoch 00007: saving model to /home/administrator/kaggle/drive/models/inception_v3-07-acc-0.3864-loss-2.0746.hdf5
+Epoch 8/50
+572/572 [==============================] - 8462s 15s/step - loss: 0.2739 - acc: 0.9749 - val_loss: 2.0287 - val_acc: 0.3987
+
+Epoch 00008: saving model to /home/administrator/kaggle/drive/models/inception_v3-08-acc-0.3987-loss-2.0287.hdf5
+Epoch 9/50
+572/572 [==============================] - 8535s 15s/step - loss: 0.2512 - acc: 0.9795 - val_loss: 2.0389 - val_acc: 0.4084
+
+Epoch 00009: saving model to /home/administrator/kaggle/drive/models/inception_v3-09-acc-0.4084-loss-2.0389.hdf5
+Epoch 10/50
+572/572 [==============================] - 8594s 15s/step - loss: 0.2326 - acc: 0.9843 - val_loss: 2.0002 - val_acc: 0.4186
+
+Epoch 00010: saving model to /home/administrator/kaggle/drive/models/inception_v3-10-acc-0.4186-loss-2.0002.hdf5
+Epoch 11/50
+572/572 [==============================] - 8575s 15s/step - loss: 0.2159 - acc: 0.9866 - val_loss: 2.0423 - val_acc: 0.3876
+
+Epoch 00011: saving model to /home/administrator/kaggle/drive/models/inception_v3-11-acc-0.3876-loss-2.0423.hdf5
+Epoch 12/50
+572/572 [==============================] - 8679s 15s/step - loss: 0.2030 - acc: 0.9897 - val_loss: 2.2478 - val_acc: 0.3549
+
+Epoch 00012: saving model to /home/administrator/kaggle/drive/models/inception_v3-12-acc-0.3549-loss-2.2478.hdf5
+Epoch 13/50
+572/572 [==============================] - 8802s 15s/step - loss: 0.1930 - acc: 0.9892 - val_loss: 2.0667 - val_acc: 0.3834
+
+Epoch 00013: saving model to /home/administrator/kaggle/drive/models/inception_v3-13-acc-0.3834-loss-2.0667.hdf5
+Epoch 14/50
+572/572 [==============================] - 8840s 15s/step - loss: 0.1817 - acc: 0.9906 - val_loss: 2.1823 - val_acc: 0.3681
+
+Epoch 00014: saving model to /home/administrator/kaggle/drive/models/inception_v3-14-acc-0.3681-loss-2.1823.hdf5
+Epoch 15/50
+572/572 [==============================] - 8773s 15s/step - loss: 0.1685 - acc: 0.9927 - val_loss: 2.1604 - val_acc: 0.3594
+
+Epoch 00015: saving model to /home/administrator/kaggle/drive/models/inception_v3-15-acc-0.3594-loss-2.1604.hdf5
+Epoch 16/50
+572/572 [==============================] - 8833s 15s/step - loss: 0.1568 - acc: 0.9948 - val_loss: 2.1277 - val_acc: 0.3759
+
+Epoch 00016: saving model to /home/administrator/kaggle/drive/models/inception_v3-16-acc-0.3759-loss-2.1277.hdf5
+Epoch 17/50
+572/572 [==============================] - 8806s 15s/step - loss: 0.1500 - acc: 0.9943 - val_loss: 2.2213 - val_acc: 0.3585
+
+Epoch 00017: saving model to /home/administrator/kaggle/drive/models/inception_v3-17-acc-0.3585-loss-2.2213.hdf5
+Epoch 18/50
+572/572 [==============================] - 8861s 15s/step - loss: 0.1380 - acc: 0.9956 - val_loss: 2.0724 - val_acc: 0.3909
+
+Epoch 00018: saving model to /home/administrator/kaggle/drive/models/inception_v3-18-acc-0.3909-loss-2.0724.hdf5
+Epoch 19/50
+572/572 [==============================] - 8805s 15s/step - loss: 0.1299 - acc: 0.9950 - val_loss: 2.1559 - val_acc: 0.3948
+
+Epoch 00019: saving model to /home/administrator/kaggle/drive/models/inception_v3-19-acc-0.3948-loss-2.1559.hdf5
+Epoch 20/50
+572/572 [==============================] - 8790s 15s/step - loss: 0.1193 - acc: 0.9963 - val_loss: 2.1305 - val_acc: 0.3945
+
+Epoch 00020: saving model to /home/administrator/kaggle/drive/models/inception_v3-20-acc-0.3945-loss-2.1305.hdf5
+Epoch 21/50
+572/572 [==============================] - 8851s 15s/step - loss: 0.1138 - acc: 0.9960 - val_loss: 2.0578 - val_acc: 0.3993
+
+Epoch 00021: saving model to /home/administrator/kaggle/drive/models/inception_v3-21-acc-0.3993-loss-2.0578.hdf5
+Epoch 22/50
+572/572 [==============================] - 8818s 15s/step - loss: 0.1047 - acc: 0.9968 - val_loss: 2.1298 - val_acc: 0.3813
+
+Epoch 00022: saving model to /home/administrator/kaggle/drive/models/inception_v3-22-acc-0.3813-loss-2.1298.hdf5
+Epoch 23/50
+572/572 [==============================] - 8837s 15s/step - loss: 0.0982 - acc: 0.9967 - val_loss: 2.1830 - val_acc: 0.3810
+
+Epoch 00023: saving model to /home/administrator/kaggle/drive/models/inception_v3-23-acc-0.3810-loss-2.1830.hdf5
+Epoch 24/50
+572/572 [==============================] - 8847s 15s/step - loss: 0.0906 - acc: 0.9966 - val_loss: 1.9352 - val_acc: 0.4360
+
+Epoch 00024: saving model to /home/administrator/kaggle/drive/models/inception_v3-24-acc-0.4360-loss-1.9352.hdf5
+Epoch 25/50
+572/572 [==============================] - 8838s 15s/step - loss: 0.0838 - acc: 0.9980 - val_loss: 1.9701 - val_acc: 0.4102
+
+Epoch 00025: saving model to /home/administrator/kaggle/drive/models/inception_v3-25-acc-0.4102-loss-1.9701.hdf5
+Epoch 26/50
+572/572 [==============================] - 8880s 16s/step - loss: 0.0791 - acc: 0.9972 - val_loss: 2.1164 - val_acc: 0.3735
+
+Epoch 00026: saving model to /home/administrator/kaggle/drive/models/inception_v3-26-acc-0.3735-loss-2.1164.hdf5
+Epoch 27/50
+572/572 [==============================] - 8842s 15s/step - loss: 0.0742 - acc: 0.9975 - val_loss: 1.9758 - val_acc: 0.3993
+
+Epoch 00027: saving model to /home/administrator/kaggle/drive/models/inception_v3-27-acc-0.3993-loss-1.9758.hdf5
+Epoch 28/50
+572/572 [==============================] - 8820s 15s/step - loss: 0.0696 - acc: 0.9978 - val_loss: 1.9423 - val_acc: 0.4038
+
+Epoch 00028: saving model to /home/administrator/kaggle/drive/models/inception_v3-28-acc-0.4038-loss-1.9423.hdf5
+Epoch 29/50
+572/572 [==============================] - 8949s 16s/step - loss: 0.0643 - acc: 0.9982 - val_loss: 1.9322 - val_acc: 0.4041
+
+Epoch 00029: saving model to /home/administrator/kaggle/drive/models/inception_v3-29-acc-0.4041-loss-1.9322.hdf5
+Epoch 30/50
+572/572 [==============================] - 8836s 15s/step - loss: 0.0599 - acc: 0.9983 - val_loss: 2.0142 - val_acc: 0.3927
+
+Epoch 00030: saving model to /home/administrator/kaggle/drive/models/inception_v3-30-acc-0.3927-loss-2.0142.hdf5
+Epoch 31/50
+572/572 [==============================] - 8926s 16s/step - loss: 0.0575 - acc: 0.9982 - val_loss: 1.8901 - val_acc: 0.4035
+
+Epoch 00031: saving model to /home/administrator/kaggle/drive/models/inception_v3-31-acc-0.4035-loss-1.8901.hdf5
+Epoch 32/50
+572/572 [==============================] - 8772s 15s/step - loss: 0.0536 - acc: 0.9983 - val_loss: 1.7780 - val_acc: 0.4261
+
+Epoch 00032: saving model to /home/administrator/kaggle/drive/models/inception_v3-32-acc-0.4261-loss-1.7780.hdf5
+Epoch 33/50
+572/572 [==============================] - 8828s 15s/step - loss: 0.0502 - acc: 0.9987 - val_loss: 1.7918 - val_acc: 0.4357
+
+Epoch 00033: saving model to /home/administrator/kaggle/drive/models/inception_v3-33-acc-0.4357-loss-1.7918.hdf5
+Epoch 34/50
+572/572 [==============================] - 8390s 15s/step - loss: 0.0477 - acc: 0.9986 - val_loss: 1.7631 - val_acc: 0.4408
+
+Epoch 00034: saving model to /home/administrator/kaggle/drive/models/inception_v3-34-acc-0.4408-loss-1.7631.hdf5
+Epoch 35/50
+572/572 [==============================] - 8743s 15s/step - loss: 0.0461 - acc: 0.9983 - val_loss: 1.8131 - val_acc: 0.4252
+
+Epoch 00035: saving model to /home/administrator/kaggle/drive/models/inception_v3-35-acc-0.4252-loss-1.8131.hdf5
+Epoch 36/50
+572/572 [==============================] - 8803s 15s/step - loss: 0.0426 - acc: 0.9986 - val_loss: 1.9436 - val_acc: 0.4011
+
+Epoch 00036: saving model to /home/administrator/kaggle/drive/models/inception_v3-36-acc-0.4011-loss-1.9436.hdf5
+Epoch 37/50
+572/572 [==============================] - 8767s 15s/step - loss: 0.0415 - acc: 0.9985 - val_loss: 2.0215 - val_acc: 0.3891
+
+Epoch 00037: saving model to /home/administrator/kaggle/drive/models/inception_v3-37-acc-0.3891-loss-2.0215.hdf5
+Epoch 38/50
+572/572 [==============================] - 8831s 15s/step - loss: 0.0395 - acc: 0.9989 - val_loss: 1.8342 - val_acc: 0.4618
+
+Epoch 00038: saving model to /home/administrator/kaggle/drive/models/inception_v3-38-acc-0.4618-loss-1.8342.hdf5
+Epoch 39/50
+572/572 [==============================] - 9062s 16s/step - loss: 0.0374 - acc: 0.9986 - val_loss: 1.8228 - val_acc: 0.4426
+
+Epoch 00039: saving model to /home/administrator/kaggle/drive/models/inception_v3-39-acc-0.4426-loss-1.8228.hdf5
+Epoch 40/50
+572/572 [==============================] - 9040s 16s/step - loss: 0.0362 - acc: 0.9989 - val_loss: 1.9239 - val_acc: 0.3984
+
+Epoch 00040: saving model to /home/administrator/kaggle/drive/models/inception_v3-40-acc-0.3984-loss-1.9239.hdf5
+Epoch 41/50
+572/572 [==============================] - 8920s 16s/step - loss: 0.0346 - acc: 0.9989 - val_loss: 1.9006 - val_acc: 0.4321
+
+Epoch 00041: saving model to /home/administrator/kaggle/drive/models/inception_v3-41-acc-0.4321-loss-1.9006.hdf5
+Epoch 42/50
+572/572 [==============================] - 9106s 16s/step - loss: 0.0334 - acc: 0.9991 - val_loss: 1.6990 - val_acc: 0.4733
+
+Epoch 00042: saving model to /home/administrator/kaggle/drive/models/inception_v3-42-acc-0.4733-loss-1.6990.hdf5
+Epoch 43/50
+572/572 [==============================] - 9055s 16s/step - loss: 0.0322 - acc: 0.9987 - val_loss: 1.6565 - val_acc: 0.4718
+
+Epoch 00043: saving model to /home/administrator/kaggle/drive/models/inception_v3-43-acc-0.4718-loss-1.6565.hdf5
+Epoch 44/50
+572/572 [==============================] - 8950s 16s/step - loss: 0.0318 - acc: 0.9986 - val_loss: 1.6459 - val_acc: 0.4871
+
+Epoch 00044: saving model to /home/administrator/kaggle/drive/models/inception_v3-44-acc-0.4871-loss-1.6459.hdf5
+Epoch 45/50
+572/572 [==============================] - 9046s 16s/step - loss: 0.0304 - acc: 0.9990 - val_loss: 1.8833 - val_acc: 0.4261
+
+Epoch 00045: saving model to /home/administrator/kaggle/drive/models/inception_v3-45-acc-0.4261-loss-1.8833.hdf5
+Epoch 46/50
+572/572 [==============================] - 8798s 15s/step - loss: 0.0295 - acc: 0.9991 - val_loss: 1.8688 - val_acc: 0.4252
+
+Epoch 00046: saving model to /home/administrator/kaggle/drive/models/inception_v3-46-acc-0.4252-loss-1.8688.hdf5
+Epoch 47/50
+572/572 [==============================] - 8774s 15s/step - loss: 0.0282 - acc: 0.9993 - val_loss: 1.7662 - val_acc: 0.4324
+
+Epoch 00047: saving model to /home/administrator/kaggle/drive/models/inception_v3-47-acc-0.4324-loss-1.7662.hdf5
+Epoch 48/50
+572/572 [==============================] - 8819s 15s/step - loss: 0.0280 - acc: 0.9990 - val_loss: 1.8126 - val_acc: 0.4276
+

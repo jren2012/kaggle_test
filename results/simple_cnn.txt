@@ -1,0 +1,22 @@
+(.venv) administrator-HP-Z840-Workstation :: kaggle/state-farm-distracted-driver-detection/src ‹master*› » python train.py --model simple --width 224 --generator custom --optimizer adam --lr 1e-5 --batch 128 --epochs 50
+/home/administrator/workingspace/workingprojects/kaggle/.venv/lib/python3.5/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Epoch 1/50
+136/135 [==============================] - 7739s 57s/step - loss: 11.6997 - acc: 0.1164 - val_loss: 4.7354 - val_acc: 0.1609
+
+Epoch 00001: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/simple-01-acc-0.1609-loss-4.7354.hdf5
+Epoch 2/50
+136/135 [==============================] - 7664s 56s/step - loss: 5.3214 - acc: 0.1563 - val_loss: 2.3230 - val_acc: 0.1661
+
+Epoch 00002: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/simple-02-acc-0.1661-loss-2.3230.hdf5
+Epoch 3/50
+136/135 [==============================] - 7299s 54s/step - loss: 2.8681 - acc: 0.1821 - val_loss: 2.2052 - val_acc: 0.1847
+
+Epoch 00003: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/simple-03-acc-0.1847-loss-2.2052.hdf5
+Epoch 4/50
+136/135 [==============================] - 6371s 47s/step - loss: 2.4359 - acc: 0.2101 - val_loss: 2.1785 - val_acc: 0.1971
+
+Epoch 00004: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/simple-04-acc-0.1971-loss-2.1785.hdf5
+Epoch 5/50
+ 59/135 [============>.................] - ETA: 55:34 - loss: 2.3093 - acc: 0.2223  

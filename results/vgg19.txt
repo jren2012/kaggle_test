@@ -1,0 +1,181 @@
+(.venv) administrator-HP-Z840-Workstation :: kaggle/state-farm-distracted-driver-detection/src ‹master*› » python train.py --model vgg19 --width 224 --generator custom --optimizer adam --lr 1e-5 --batch 32 --epochs 50           
+/home/administrator/workingspace/workingprojects/kaggle/.venv/lib/python3.5/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+0.5
+0.5
+/home/administrator/workingspace/workingprojects/kaggle/state-farm-distracted-driver-detection/src/models/vgg19.py:30: UserWarning: Update your `Model` call to the Keras 2 API: `Model(inputs=Tensor("im..., outputs=Tensor("pr...)`
+  my_model = Model(input=input_shape, output=x)
+Epoch 1/50
+544/543 [==============================] - 10008s 18s/step - loss: 10.1893 - acc: 0.2590 - val_loss: 5.9014 - val_acc: 0.4619
+
+Epoch 00001: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-01-acc-0.4619-loss-5.9014.hdf5
+Epoch 2/50
+544/543 [==============================] - 9951s 18s/step - loss: 5.5058 - acc: 0.5377 - val_loss: 6.6538 - val_acc: 0.4605
+
+Epoch 00002: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-02-acc-0.4605-loss-6.6538.hdf5
+Epoch 3/50
+544/543 [==============================] - 9902s 18s/step - loss: 3.3231 - acc: 0.6924 - val_loss: 5.5634 - val_acc: 0.5148
+
+Epoch 00003: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-03-acc-0.5148-loss-5.5634.hdf5
+Epoch 4/50
+544/543 [==============================] - 9826s 18s/step - loss: 2.4098 - acc: 0.7644 - val_loss: 7.0311 - val_acc: 0.4601
+
+Epoch 00004: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-04-acc-0.4601-loss-7.0311.hdf5
+Epoch 5/50
+544/543 [==============================] - 9837s 18s/step - loss: 1.7903 - acc: 0.8148 - val_loss: 5.6873 - val_acc: 0.5184
+
+Epoch 00005: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-05-acc-0.5184-loss-5.6873.hdf5
+Epoch 6/50
+544/543 [==============================] - 9820s 18s/step - loss: 1.5009 - acc: 0.8439 - val_loss: 7.0817 - val_acc: 0.4501
+
+Epoch 00006: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-06-acc-0.4501-loss-7.0817.hdf5
+Epoch 7/50
+544/543 [==============================] - 9815s 18s/step - loss: 1.2777 - acc: 0.8628 - val_loss: 4.1504 - val_acc: 0.6236
+
+Epoch 00007: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-07-acc-0.6236-loss-4.1504.hdf5
+Epoch 8/50
+544/543 [==============================] - 9842s 18s/step - loss: 1.0640 - acc: 0.8830 - val_loss: 5.2633 - val_acc: 0.5519
+
+Epoch 00008: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-08-acc-0.5519-loss-5.2633.hdf5
+Epoch 9/50
+544/543 [==============================] - 9849s 18s/step - loss: 1.0306 - acc: 0.8878 - val_loss: 7.1441 - val_acc: 0.4663
+
+Epoch 00009: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-09-acc-0.4663-loss-7.1441.hdf5
+Epoch 10/50
+544/543 [==============================] - 9825s 18s/step - loss: 0.8696 - acc: 0.9044 - val_loss: 5.5009 - val_acc: 0.5427
+
+Epoch 00010: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-10-acc-0.5427-loss-5.5009.hdf5
+Epoch 11/50
+544/543 [==============================] - 9839s 18s/step - loss: 0.7830 - acc: 0.9129 - val_loss: 5.8960 - val_acc: 0.5387
+
+Epoch 00011: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-11-acc-0.5387-loss-5.8960.hdf5
+Epoch 12/50
+544/543 [==============================] - 9815s 18s/step - loss: 0.7149 - acc: 0.9176 - val_loss: 5.0330 - val_acc: 0.5847
+
+Epoch 00012: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-12-acc-0.5847-loss-5.0330.hdf5
+Epoch 13/50
+544/543 [==============================] - 9818s 18s/step - loss: 0.6960 - acc: 0.9210 - val_loss: 5.5892 - val_acc: 0.5373
+
+Epoch 00013: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-13-acc-0.5373-loss-5.5892.hdf5
+Epoch 14/50
+544/543 [==============================] - 9928s 18s/step - loss: 0.6054 - acc: 0.9297 - val_loss: 4.9601 - val_acc: 0.5863
+
+Epoch 00014: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-14-acc-0.5863-loss-4.9601.hdf5
+Epoch 15/50
+544/543 [==============================] - 10045s 18s/step - loss: 0.5645 - acc: 0.9359 - val_loss: 5.2808 - val_acc: 0.5749
+
+Epoch 00015: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-15-acc-0.5749-loss-5.2808.hdf5
+Epoch 16/50
+544/543 [==============================] - 10121s 19s/step - loss: 0.5372 - acc: 0.9373 - val_loss: 5.1518 - val_acc: 0.5785
+
+Epoch 00016: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-16-acc-0.5785-loss-5.1518.hdf5
+Epoch 17/50
+544/543 [==============================] - 9908s 18s/step - loss: 0.5180 - acc: 0.9415 - val_loss: 6.3684 - val_acc: 0.5220
+
+Epoch 00017: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-17-acc-0.5220-loss-6.3684.hdf5
+Epoch 18/50
+544/543 [==============================] - 9862s 18s/step - loss: 0.4785 - acc: 0.9434 - val_loss: 5.0221 - val_acc: 0.6006
+
+Epoch 00018: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-18-acc-0.6006-loss-5.0221.hdf5
+Epoch 19/50
+544/543 [==============================] - 9870s 18s/step - loss: 0.4534 - acc: 0.9489 - val_loss: 6.1048 - val_acc: 0.5339
+
+Epoch 00019: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-19-acc-0.5339-loss-6.1048.hdf5
+Epoch 20/50
+544/543 [==============================] - 9865s 18s/step - loss: 0.4548 - acc: 0.9495 - val_loss: 5.4608 - val_acc: 0.5765
+
+Epoch 00020: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-20-acc-0.5765-loss-5.4608.hdf5
+Epoch 21/50
+544/543 [==============================] - 9844s 18s/step - loss: 0.4150 - acc: 0.9528 - val_loss: 5.4198 - val_acc: 0.5791
+
+Epoch 00021: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-21-acc-0.5791-loss-5.4198.hdf5
+Epoch 22/50
+544/543 [==============================] - 9815s 18s/step - loss: 0.3975 - acc: 0.9543 - val_loss: 5.1589 - val_acc: 0.5960
+
+Epoch 00022: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-22-acc-0.5960-loss-5.1589.hdf5
+Epoch 23/50
+544/543 [==============================] - 9844s 18s/step - loss: 0.4289 - acc: 0.9521 - val_loss: 4.9924 - val_acc: 0.6036
+
+Epoch 00023: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-23-acc-0.6036-loss-4.9924.hdf5
+Epoch 24/50
+544/543 [==============================] - 9864s 18s/step - loss: 0.3827 - acc: 0.9568 - val_loss: 5.9116 - val_acc: 0.5535
+
+Epoch 00024: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-24-acc-0.5535-loss-5.9116.hdf5
+Epoch 25/50
+544/543 [==============================] - 9845s 18s/step - loss: 0.3807 - acc: 0.9574 - val_loss: 5.6309 - val_acc: 0.5741
+
+Epoch 00025: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-25-acc-0.5741-loss-5.6309.hdf5
+Epoch 26/50
+544/543 [==============================] - 10128s 19s/step - loss: 0.3692 - acc: 0.9600 - val_loss: 5.0505 - val_acc: 0.6152
+
+Epoch 00026: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-26-acc-0.6152-loss-5.0505.hdf5
+Epoch 27/50
+544/543 [==============================] - 10455s 19s/step - loss: 0.3580 - acc: 0.9597 - val_loss: 5.4957 - val_acc: 0.5875
+
+Epoch 00027: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-27-acc-0.5875-loss-5.4957.hdf5
+Epoch 28/50
+544/543 [==============================] - 10707s 20s/step - loss: 0.3449 - acc: 0.9615 - val_loss: 6.1188 - val_acc: 0.5521
+
+Epoch 00028: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-28-acc-0.5521-loss-6.1188.hdf5
+Epoch 29/50
+544/543 [==============================] - 10426s 19s/step - loss: 0.3379 - acc: 0.9643 - val_loss: 5.7273 - val_acc: 0.5863
+
+Epoch 00029: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-29-acc-0.5863-loss-5.7273.hdf5
+Epoch 30/50
+544/543 [==============================] - 9937s 18s/step - loss: 0.3215 - acc: 0.9650 - val_loss: 6.0177 - val_acc: 0.5569
+
+Epoch 00030: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-30-acc-0.5569-loss-6.0177.hdf5
+Epoch 31/50
+544/543 [==============================] - 9898s 18s/step - loss: 0.3055 - acc: 0.9663 - val_loss: 5.7787 - val_acc: 0.5685
+
+Epoch 00031: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-31-acc-0.5685-loss-5.7787.hdf5
+Epoch 32/50
+544/543 [==============================] - 9841s 18s/step - loss: 0.3154 - acc: 0.9659 - val_loss: 5.3581 - val_acc: 0.5998
+
+Epoch 00032: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-32-acc-0.5998-loss-5.3581.hdf5
+Epoch 33/50
+544/543 [==============================] - 9862s 18s/step - loss: 0.2942 - acc: 0.9690 - val_loss: 6.7399 - val_acc: 0.5240
+
+Epoch 00033: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-33-acc-0.5240-loss-6.7399.hdf5
+Epoch 34/50
+544/543 [==============================] - 9883s 18s/step - loss: 0.3013 - acc: 0.9669 - val_loss: 6.1059 - val_acc: 0.5543
+
+Epoch 00034: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-34-acc-0.5543-loss-6.1059.hdf5
+Epoch 35/50
+544/543 [==============================] - 9884s 18s/step - loss: 0.2806 - acc: 0.9685 - val_loss: 5.7376 - val_acc: 0.5879
+
+Epoch 00035: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-35-acc-0.5879-loss-5.7376.hdf5
+Epoch 36/50
+544/543 [==============================] - 9849s 18s/step - loss: 0.2454 - acc: 0.9721 - val_loss: 5.9069 - val_acc: 0.5647
+
+Epoch 00036: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-36-acc-0.5647-loss-5.9069.hdf5
+Epoch 37/50
+544/543 [==============================] - 9835s 18s/step - loss: 0.2619 - acc: 0.9719 - val_loss: 5.8565 - val_acc: 0.5623
+
+Epoch 00037: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-37-acc-0.5623-loss-5.8565.hdf5
+Epoch 38/50
+544/543 [==============================] - 9861s 18s/step - loss: 0.2505 - acc: 0.9734 - val_loss: 6.2194 - val_acc: 0.5547
+
+Epoch 00038: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-38-acc-0.5547-loss-6.2194.hdf5
+Epoch 39/50
+544/543 [==============================] - 9883s 18s/step - loss: 0.2504 - acc: 0.9738 - val_loss: 6.0746 - val_acc: 0.5641
+
+Epoch 00039: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-39-acc-0.5641-loss-6.0746.hdf5
+Epoch 40/50
+544/543 [==============================] - 9865s 18s/step - loss: 0.2796 - acc: 0.9706 - val_loss: 6.1212 - val_acc: 0.5553
+
+Epoch 00040: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-40-acc-0.5553-loss-6.1212.hdf5
+Epoch 41/50
+544/543 [==============================] - 10015s 18s/step - loss: 0.2473 - acc: 0.9737 - val_loss: 5.7595 - val_acc: 0.5817
+
+Epoch 00041: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-41-acc-0.5817-loss-5.7595.hdf5
+Epoch 42/50
+544/543 [==============================] - 10115s 19s/step - loss: 0.2747 - acc: 0.9733 - val_loss: 5.9397 - val_acc: 0.5687
+
+Epoch 00042: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-42-acc-0.5687-loss-5.9397.hdf5
+Epoch 43/50
+544/543 [==============================] - 10047s 18s/step - loss: 0.2789 - acc: 0.9720 - val_loss: 6.3743 - val_acc: 0.5419
+
+Epoch 00043: saving model to /home/administrator/workingspace/workingprojects/kaggle/drive/models/vgg19-43-acc-0.5419-loss-6.3743.hdf5
+
